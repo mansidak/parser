@@ -1119,6 +1119,31 @@
     dotenv "^6.2.0"
     node-fetch "^2.3.0"
 
+"@postlight/mercury-parser@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@postlight/mercury-parser/-/mercury-parser-2.2.1.tgz#a2a601707e2f2da0b8d83f983f53422f8b58855e"
+  integrity sha512-WsXHcVfbwlAb0HO1nZ3tS2ipNvLeLk9frJj3y5hn/NAeQfEJeRm9AtMrxpOJ11X8L4he+bRyjr1bpIPvQPWvCA==
+  dependencies:
+    "@babel/runtime-corejs2" "^7.2.0"
+    "@postlight/ci-failed-test-reporter" "^1.0"
+    browser-request "github:postlight/browser-request#feat-add-headers-to-response"
+    cheerio "^0.22.0"
+    difflib "github:postlight/difflib.js"
+    ellipsize "0.1.0"
+    iconv-lite "0.5.0"
+    jquery "^3.4.1"
+    moment "^2.23.0"
+    moment-parseformat "3.0.0"
+    moment-timezone "0.5.26"
+    postman-request "^2.88.1-postman.7.1"
+    request-promise "^4.2.2"
+    string-direction "^0.1.2"
+    turndown "^5.0.3"
+    url "^0.11.0"
+    valid-url "^1.0.9"
+    wuzzy "^0.1.4"
+    yargs-parser "^14.0.0"
+
 "@postman/form-data@~3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@postman/form-data/-/form-data-3.1.1.tgz#d0446d0d3639a291f5e800e89fa1d0d3723f9414"
@@ -2029,6 +2054,11 @@ bluebird@^2.6.2:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-2.11.0.tgz#534b9033c022c9579c56ba3b3e5a5caafbb650e1"
   integrity sha512-UfFSr22dmHPQqPP9XWHRhq+gWnHCYguQGkXQlbyPtW5qTnhFWA8/iXg765tH0cAjy7l/zPJ1aBTO0g5XgA7kvQ==
+
+bluebird@^3.5.0:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
+  integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.11.9:
   version "4.12.0"
@@ -6164,7 +6194,7 @@ jest@^23.6.0:
     import-local "^1.0.0"
     jest-cli "^23.6.0"
 
-jquery@^3.5.0:
+jquery@^3.4.1, jquery@^3.5.0:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
   integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
@@ -6212,7 +6242,7 @@ jsbn@~0.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha512-UVU9dibq2JcFWxQPA6KCqj5O42VOmAY3zQUfEKxU0KpTGXwNoCjkX1e13eHNvw/xPynt6pU0rZ1htjWTNTSXsg==
 
-jsdom@^11.5.1:
+jsdom@^11.5.1, jsdom@^11.9.0:
   version "11.12.0"
   resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-11.12.0.tgz#1a80d40ddd378a1de59656e9e6dc5a3ba8657bc8"
   integrity sha512-y8Px43oyiBM13Zc1z780FrfNLJCXTL40EWlty/LXUtcjykRBNgLlCjWXpfSPBl2iv+N7koQN+dvqszHZgT/Fjw==
@@ -7615,6 +7645,13 @@ moment-parseformat@3.0.0:
   resolved "https://registry.yarnpkg.com/moment-parseformat/-/moment-parseformat-3.0.0.tgz#3a1dc438b4bc073b7e93cc298cfb6c5daac26dba"
   integrity sha512-dVgXe6b6DLnv4CHG7a1zUe5mSXaIZ3c6lSHm/EKeVeQI2/4pwe0VRde8OyoCE1Ro2lKT5P6uT9JElF7KDLV+jw==
 
+moment-timezone@0.5.26:
+  version "0.5.26"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.26.tgz#c0267ca09ae84631aa3dc33f65bedbe6e8e0d772"
+  integrity sha512-sFP4cgEKTCymBBKgoxZjYzlSovC20Y6J7y3nanDc5RoBIXKlZhoYwBoZGe3flwU6A372AcRwScH8KiwV6zjy1g==
+  dependencies:
+    moment ">= 2.9.0"
+
 moment-timezone@0.5.37:
   version "0.5.37"
   resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.37.tgz#adf97f719c4e458fdb12e2b4e87b8bec9f4eef1e"
@@ -8422,7 +8459,7 @@ posix-character-classes@^0.1.0:
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha512-xTgYBc3fuo7Yt7JbiuFxSYGToMoz8fLoE6TC9Wx1P/u+LfeThMOAqmuyECnlBaaJb+u1m9hHiXUEtwW4OzfUJg==
 
-postman-request@^2.88.1-postman.31:
+postman-request@^2.88.1-postman.31, postman-request@^2.88.1-postman.7.1:
   version "2.88.1-postman.33"
   resolved "https://registry.yarnpkg.com/postman-request/-/postman-request-2.88.1-postman.33.tgz#684147d61c9a263a28f148d3207b1593e0f01ec5"
   integrity sha512-uL9sCML4gPH6Z4hreDWbeinKU0p0Ke261nU7OvII95NU22HN6Dk7T/SaVPaj6T4TsQqGKIFw6/woLZnH7ugFNA==
@@ -9785,6 +9822,16 @@ request-promise-native@^1.0.5:
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
+request-promise@^4.2.2:
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/request-promise/-/request-promise-4.2.6.tgz#7e7e5b9578630e6f598e3813c0f8eb342a27f0a2"
+  integrity sha512-HCHI3DJJUakkOr8fNoCc73E5nU5bqITjOYFMDrKHYOXWXrgD/SBaC7LjwuPymUprRyuF06UK7hd/lMHkmUXglQ==
+  dependencies:
+    bluebird "^3.5.0"
+    request-promise-core "1.1.4"
+    stealthy-require "^1.1.1"
+    tough-cookie "^2.3.3"
+
 request@^2.87.0, request@^2.88.2:
   version "2.88.2"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
@@ -11120,6 +11167,13 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
+turndown@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/turndown/-/turndown-5.0.3.tgz#a1350b66155d7891f10e451432170b0f7cd7449a"
+  integrity sha512-popfGXEiedpq6F5saRIAThKxq/bbEPVFnsDnUdjaDGIre9f3/OL9Yi/yPbPcZ7RYUDpekghr666bBfZPrwNnhQ==
+  dependencies:
+    jsdom "^11.9.0"
+
 turndown@^7.1.1:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/turndown/-/turndown-7.1.2.tgz#7feb838c78f14241e79ed92a416e0d213e044a29"
@@ -11592,7 +11646,7 @@ url-parse@^1.5.3:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
-url@~0.11.0:
+url@^0.11.0, url@~0.11.0:
   version "0.11.3"
   resolved "https://registry.yarnpkg.com/url/-/url-0.11.3.tgz#6f495f4b935de40ce4a0a52faee8954244f3d3ad"
   integrity sha512-6hxOLGfZASQK/cijlZnZJTq8OXAkt/3YGfQX45vvMYXpZoo8NdWZcY73K108Jf759lS1Bv/8wXnHDTSz17dSRw==
@@ -12092,6 +12146,14 @@ yargs-parser@13.1.2, yargs-parser@^13.1.2:
   version "13.1.2"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-13.1.2.tgz#130f09702ebaeef2650d54ce6e3e5706f7a4fb38"
   integrity sha512-3lbsNRf/j+A4QuSZfDRA7HRSfWrzO0YjqTJd5kjAq37Zep1CEgaYmrH9Q3GwPiB9cHyd1Y1UwggGhJGoxipbzg==
+  dependencies:
+    camelcase "^5.0.0"
+    decamelize "^1.2.0"
+
+yargs-parser@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-14.0.0.tgz#42e25777b06718ec99eac2c3a98ad3de73b6818f"
+  integrity sha512-zn/Mnx+tbFjkCFUodEpjXckNS65NfpB5oyqOkDDEG/8uxlfLZJu2IoBLQFjukUkn9rBbGkVYNzrDh6qy4NUd3g==
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
