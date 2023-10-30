@@ -158,7 +158,6 @@
       "git add"
     ],
     "*.{json,css,md}": [
-      "remark .",
       "prettier --write",
       "git add"
     ]
